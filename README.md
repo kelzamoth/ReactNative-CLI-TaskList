@@ -1,9 +1,17 @@
 # TaskList
 
-This application is based on the react-native-cli library. The react-redux and react-persistor libraries were also used.
+This application is based on the react-native-cli library and . The react-redux and react-persistor libraries were also used.
 This application only supports English language!!!
 
 ## Installation
+
+To install all packages run the command:
+
+```bash
+yarn
+```
+
+## Usage
 
 Open the project folder in the terminal. In one terminal type:
 
