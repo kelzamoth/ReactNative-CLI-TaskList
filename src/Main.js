@@ -33,8 +33,8 @@ function Main(props) {
         />
 
         <Header changeInputCond={changeInputCond} themeMode={props.theme} />
-        <Text>Общее количество задач: {taskCount}</Text>
-        <Text>Количество выполенных задач: {checkedTask}</Text>
+        <Text>Total number of tasks: {taskCount}</Text>
+        <Text>Number of completed tasks: {checkedTask}</Text>
 
         {inputCondition && (
           <Form createNewTask={createNewTask} themeMode={props.theme} />
